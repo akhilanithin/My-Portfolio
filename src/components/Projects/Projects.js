@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Ecart from "../../Assets/Projects/ecart.png"
+import StopWatch from "../../Assets/Projects/stopwatch.png"
+import Country from "../../Assets/Projects/Country.png"
 
 function Projects() {
   return (
@@ -25,10 +28,11 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="app generator"
+              description="App Generator Room or WorkspaceGenerate Full-Stack Apps on top of modern UI Kits powered by Django, NodeJS, React. Have features which allows user for  tested seed projects coded in different patterns and technologies by our team of experts on top of modern UI Kits.."
+              languageUsed="Technology Used: Django,Node JS,React JS,Python,JSX,Posgresql,Pycharm,Postman,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/dashboard.git"
+              demoLink="https://appseed.us/generator/"
             />
           </Col>
 
@@ -36,21 +40,22 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Project Fair App"
+              description="My Project Fair App build with MangoDb,Express JS,React JS and Node JS.Have features which allows user for add projects in different patterns and technologies."
+              languageUsed="Technology Used: MangoDb,ExpressJS,ReactJS,NodeJS,JSX,vs code,Postman,vercel,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/Project-Fair.git"
+              demoLink="https://project-fair-akhila-thankachens-projects.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Media Player"
+              description="Media Player app build with react.js. Online Editor which supports Axios,Redux,json file  with instant view of website.Video can be create,read,update,delete and categories Both the editor supports auto save of work using Local Storage"
+              languageUsed="Technology Used: Axios,Redux,JSON file,ReactJS,JSX,vs code,Postman,netlify,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/media-player-app.git"
+              demoLink="https://akhila-media-player.netlify.app/"              
             />
           </Col>
 
@@ -58,33 +63,75 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Doc App"
+              description="Doc app is used to login add,delete ,edit documents.Doc app build with react.js,Material UI,Firebase,React Quill and react Router DOM . Online Editor which supports Axios,Redux,json file  with instant view of website."
+              languageUsed="Technology Used: ReactJS,Material UI,Firebase,React Quill,React Router DOM,Axios,Redux,Json File,JSX,vs code,Postman,vercel,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/Doc-app.git"
+              demoLink="https://doc-app-six-delta.vercel.app/login"
             />
           </Col>
 
+
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Netflix Clone"
+              description="Netflix clone is a copy of Netflix website.data is get by dummy api.Netflix clone  build with react.js,Material UI,Axios.."
+              languageUsed="Technology Used: Dummy Api,ReactJS,Material UI,Axios,JSX,vs code,Postman,netlify,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/Netflix-clone.git"
+              demoLink="https://netflix-clone-akhila.netlify.app/"
+           
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Quizz App"
+              description="Quizz App Using React.count correct answer and wrong answer and display the same."
+              languageUsed="Technology Used: ReactJS,JSX,vs code,Postman,vercel,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/quizz.git"
+              demoLink="https://quizz-nu-eight.vercel.app/" 
+          
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={StopWatch}
+              isBlog={false}
+              title="Stop watch"
+              description="This web app is used when time periods must be measured precisely and with a minimum of complications. Laboratory experiments and sporting events like sprints are good examples."
+              languageUsed="Technology Used:  HTML,CSS,BOOSTRAP,JAVASCRIPT,JQuery"
+              ghLink="https://github.com/akhilanithin/stop-watch.git"
+              demoLink="https://akhila-stopwatch.netlify.app/" 
+          
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecart}
+              isBlog={false}
+              title="E Cart"
+              description="An e-commerce website is a website that allows people to buy and sell products and services online. E-commerce websites can sell physical goods, digital products, or services.Process orders Accept payments,Manage shipping and logistics,Provide customer service"
+              languageUsed="Technology Used:Firebase,Angular,Drag and drop,"
+              ghLink="https://github.com/akhilanithin/E-cart-angular.git"
+             
+          
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Country}
+              isBlog={false}
+              title="Country Details"
+              description="An country details website is a website that allows people to know country details capital,population timezone,continent,currencies,Languages,view in map"
+              languageUsed="Technology Used:HTML,CSS,BOOSTRAP,JAVASCRIPT,API(Dummy)"
+              ghLink="https://github.com/akhilanithin/country.git"
+             
+          
             />
           </Col>
         </Row>

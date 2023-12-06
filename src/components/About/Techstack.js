@@ -1,68 +1,89 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { SiHtml5 } from "react-icons/si";
+import { IoLogoCss3 } from "react-icons/io5";
+import { BsFiletypeJson, BsFiletypeJsx } from "react-icons/bs";
+import { FaAngular } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
+
+
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiGithub,
+  SiJquery,
   SiPostgresql,
+  SiDjango
+
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
+        <p style={{ fontSize: "15px" }}>Python</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+        <p style={{ fontSize: "15px" }}>Django</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+        <p style={{ fontSize: "15px" }}>HTML</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoCss3 />
+        <p style={{ fontSize: "15px" }}>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <p style={{ fontSize: "15px" }}>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiJquery />
+        <p style={{ fontSize: "15px" }}>Jquery</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsFiletypeJson />
+        <p style={{ fontSize: "15px" }}>JSON</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <p style={{ fontSize: "15px" }}>Node JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <p style={{ fontSize: "15px" }}>React JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <FaAngular />
+        <p style={{ fontSize: "15px" }}>Angular JS</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsFiletypeJsx />
+        <p style={{ fontSize: "15px" }}>JSX</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <p style={{ fontSize: "15px" }}>Mango DB</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <TbSql />
+        <p style={{ fontSize: "15px" }}>SQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+        <p style={{ fontSize: "15px" }}>Postgresql</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiGithub />
+        <p style={{ fontSize: "15px" }}>Github</p>
       </Col>
     </Row>
   );
