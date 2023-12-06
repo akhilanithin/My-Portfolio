@@ -130,6 +130,7 @@ function Projects() {
               description="An country details website is a website that allows people to know country details capital,population timezone,continent,currencies,Languages,view in map"
               languageUsed="Technology Used:HTML,CSS,BOOSTRAP,JAVASCRIPT,API(Dummy)"
               ghLink="https://github.com/akhilanithin/country.git"
+              demoLink="https://country-details-akhila.netlify.app/" 
              
           
             />
