@@ -24,19 +24,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="app generator"
-              description="App Generator Room or WorkspaceGenerate Full-Stack Apps on top of modern UI Kits powered by Django, NodeJS, React. Have features which allows user for  tested seed projects coded in different patterns and technologies by our team of experts on top of modern UI Kits.."
-              languageUsed="Technology Used: Django,Node JS,React JS,Python,JSX,Posgresql,Pycharm,Postman,React Bootsrtap"
-              ghLink="https://github.com/akhilanithin/dashboard.git"
-              demoLink="https://appseed.us/generator/"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -47,6 +36,46 @@ function Projects() {
               demoLink="https://project-fair-akhila-thankachens-projects.vercel.app/"
             />
           </Col>
+          
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Netflix Clone"
+              description="Netflix clone is a copy of Netflix website.data is get by dummy api.Netflix clone  build with react.js,Material UI,Axios.."
+              languageUsed="Technology Used: Dummy Api,ReactJS,Material UI,Axios,JSX,vs code,Postman,netlify,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/Netflix-clone.git"
+              demoLink="https://netflix-clone-akhila.netlify.app/"
+           
+            />
+              </Col>
+              <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecart}
+              isBlog={false}
+              title="E Cart"
+              description="An e-commerce website is a website that allows people to buy and sell products and services online. E-commerce websites can sell physical goods, digital products, or services.Process orders Accept payments,Manage shipping and logistics,Provide customer service"
+              languageUsed="Technology Used:React Js,Drag and drop,Dummy API"
+              ghLink="https://github.com/akhilanithin/E-cart.git"
+              demoLink="https://e-cart-sigma.vercel.app/" 
+          
+             
+          
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="To-Do App"
+              description="A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more.The items on a to-do list are usually action-oriented, such as “Schedule a meet with the R&D team” or “Call back customer X.” Some lists include more abstract goals, such as “improve your time management skills” or “learn how to use a new software program.”"
+              languageUsed="Technology Used: Django,React JS,Python,JSX,Posgresql,Pycharm,Postman,React Bootsrtap"
+              ghLink="https://github.com/akhilanithin/django-react-todo-app.git"
+              // demoLink="https://appseed.us/generator/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -70,22 +99,7 @@ function Projects() {
               demoLink="https://doc-app-six-delta.vercel.app/login"
             />
           </Col>
-
-
-
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Netflix Clone"
-              description="Netflix clone is a copy of Netflix website.data is get by dummy api.Netflix clone  build with react.js,Material UI,Axios.."
-              languageUsed="Technology Used: Dummy Api,ReactJS,Material UI,Axios,JSX,vs code,Postman,netlify,React Bootsrtap"
-              ghLink="https://github.com/akhilanithin/Netflix-clone.git"
-              demoLink="https://netflix-clone-akhila.netlify.app/"
-           
-            />
-          </Col>
+  
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -110,27 +124,16 @@ function Projects() {
           
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Ecart}
-              isBlog={false}
-              title="E Cart"
-              description="An e-commerce website is a website that allows people to buy and sell products and services online. E-commerce websites can sell physical goods, digital products, or services.Process orders Accept payments,Manage shipping and logistics,Provide customer service"
-              languageUsed="Technology Used:Firebase,Angular,Drag and drop,"
-              ghLink="https://github.com/akhilanithin/E-cart-angular.git"
-             
-          
-            />
-          </Col>
+       
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Country}
               isBlog={false}
-              title="Country Details"
-              description="An country details website is a website that allows people to know country details capital,population timezone,continent,currencies,Languages,view in map"
-              languageUsed="Technology Used:HTML,CSS,BOOSTRAP,JAVASCRIPT,API(Dummy)"
-              ghLink="https://github.com/akhilanithin/country.git"
-              demoLink="https://country-details-akhila.netlify.app/" 
+              title="Employee Management"
+              description="An employee management system is technology designed to streamline core HR services and improve workforce productivity. It accomplishes these goals largely by automating labor-intensive, administrative tasks and using analytics to drive business decisions."
+              languageUsed="Technology Used: AngularJS,Json File,TypeScript,vs code,Postman,vercel,Bootsrtap"
+              ghLink="https://github.com/akhilanithin/Employee-Management.git"
+              demoLink="https://employee-management-eta-seven.vercel.app/" 
              
           
             />
